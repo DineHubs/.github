@@ -303,11 +303,11 @@ The system implements role-based access control (RBAC) with the following roles:
 
 | Module | SuperAdmin | Admin | Manager | Waiter | Kitchen | InventoryManager |
 |--------|:----------:|:-----:|:-------:|:------:|:-------:|:----------------:|
-| **Orders - Create/View** | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ |
-| **Orders - Update Status** | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| **Menu Items (CRUD)** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Kitchen Queue** | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| **Reports - Sales/Inventory** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Orders - Create/View** | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ |
+| **Orders - Update Status** | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| **Menu Items (CRUD)** | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| **Kitchen Queue** | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| **Reports - Sales/Inventory** | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Reports - Subscription** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | **Subscriptions** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | **Menu Management** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -462,4 +462,5 @@ For issues and questions, please [create an issue](link-to-issues) or contact th
 ---
 
 **Built with ❤️ using .NET 8 and Angular 19**
+
 
